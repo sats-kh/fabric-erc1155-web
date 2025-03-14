@@ -1,0 +1,12 @@
+{
+    "tokenID": "72604921572812097812987144184769052389262125218441759920960873362512295167703",
+    "amount": 1,
+    "account": "kwanhoon",
+    "fabricID": "eDUwOTo6Q049a3dhbmhvb24sT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmZ9FWDaGhH6nUPTmvWcydMT2RV85uLY9685a3LeBuyZZQ",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmZ9FWDaGhH6nUPTmvWcydMT2RV85uLY9685a3LeBuyZZQ",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Pop Art\r\n",
+    "image_pHash": "b1f0c10b9fcdb0c3",
+    "prompt_SimHash": 14889253633610718689,
+    "timestamp": "2025-03-14T07:12:45.728512Z"
+}

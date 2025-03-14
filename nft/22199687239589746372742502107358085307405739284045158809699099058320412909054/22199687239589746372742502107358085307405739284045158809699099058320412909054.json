@@ -1,0 +1,12 @@
+{
+    "tokenID": "22199687239589746372742502107358085307405739284045158809699099058320412909054",
+    "amount": 1,
+    "account": "khlee",
+    "fabricID": "eDUwOTo6Q049a2hsZWUsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmReEtKwA7b4CqG4h1r7zLMc9tJgqyyWyCkbAF99mdGxYd",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmReEtKwA7b4CqG4h1r7zLMc9tJgqyyWyCkbAF99mdGxYd",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Fashion Illustration",
+    "image_pHash": "ceb9f3d0a6614896",
+    "prompt_SimHash": 5760492366325257104,
+    "timestamp": "2025-03-14T08:01:54.571595Z"
+}

@@ -1,0 +1,12 @@
+{
+    "tokenID": "37092384608457518216388097088308763780023573387485448918174575909549813301024",
+    "amount": 1,
+    "account": "test3",
+    "fabricID": "eDUwOTo6Q049dGVzdDMsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmTrmWQSM6PMDVmWCb9QNUQVtvSbpbdAuGaTq2k4GMaAfy",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmTrmWQSM6PMDVmWCb9QNUQVtvSbpbdAuGaTq2k4GMaAfy",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Paper Art",
+    "image_pHash": "c387365a4f58992d",
+    "prompt_SimHash": 16060796472514222496,
+    "timestamp": "2025-03-14T07:09:02.969116Z"
+}

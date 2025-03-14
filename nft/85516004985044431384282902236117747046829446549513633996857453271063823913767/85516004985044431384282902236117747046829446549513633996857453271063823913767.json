@@ -1,0 +1,12 @@
+{
+    "tokenID": "85516004985044431384282902236117747046829446549513633996857453271063823913767",
+    "amount": 1,
+    "account": "Fabric",
+    "fabricID": "eDUwOTo6Q049RmFicmljLE9VPWFkbWluLE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "Qmb4gDe9wodfJtFTsT8jDTQdqs8MjzX7x9AKbrKFzbmvRc",
+    "image_uri": "http://192.168.1.131:8080/ipfs/Qmb4gDe9wodfJtFTsT8jDTQdqs8MjzX7x9AKbrKFzbmvRc",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Fauvism\r\n",
+    "image_pHash": "9bf86332765b60c8",
+    "prompt_SimHash": 9971815414215119281,
+    "timestamp": "2025-03-14T05:20:43.361923Z"
+}

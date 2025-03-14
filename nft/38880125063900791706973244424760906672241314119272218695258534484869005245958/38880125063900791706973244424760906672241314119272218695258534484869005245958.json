@@ -1,0 +1,12 @@
+{
+    "tokenID": "38880125063900791706973244424760906672241314119272218695258534484869005245958",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmU8CNUpWcLoRy9sHStZuJfiT2GJsDnSnPbejV4ZaRzVxR",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmU8CNUpWcLoRy9sHStZuJfiT2GJsDnSnPbejV4ZaRzVxR",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Land Art",
+    "image_pHash": "a3cc4c33959995f4",
+    "prompt_SimHash": 10242101773488331184,
+    "timestamp": "2025-03-14T02:18:50.781075Z"
+}

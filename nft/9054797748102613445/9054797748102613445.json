@@ -1,0 +1,12 @@
+{
+    "tokenID": "9054797748102613445",
+    "amount": 1,
+    "account": "p1",
+    "fabricID": "eDUwOTo6Q049cDEsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmRRzr7k74SZuyZTLmFSLuBj9wW9S7wbLLRBGB6yr5as6e",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmRRzr7k74SZuyZTLmFSLuBj9wW9S7wbLLRBGB6yr5as6e",
+    "prompt": "황금빛 태양아래 달리고 있는 강아지, 푸른 언덕이 뒤 배경으로 나타나 있다.",
+    "image_pHash": "dcd3210c5bbe82e5",
+    "prompt_SimHash": "0xbd2258d361580f1a",
+    "timestamp": "2025-03-06T09:34:50.109620Z"
+}

@@ -1,0 +1,12 @@
+{
+    "tokenID": "25306137722413730382116026434449282943551650343526618047787423491058599383490",
+    "amount": 1,
+    "account": "Winston_Churchill",
+    "fabricID": "eDUwOTo6Q049V2luc3Rvbl9DaHVyY2hpbGwsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmS73qUzYjunMiE6xMXK7MiK9hg3R8s7P1nQ3v6jP3oLY1",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmS73qUzYjunMiE6xMXK7MiK9hg3R8s7P1nQ3v6jP3oLY1",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Watercolor",
+    "image_pHash": "e6e3ad159a40d9ca",
+    "prompt_SimHash": 4801683053807046800,
+    "timestamp": "2025-03-14T02:20:49.102227Z"
+}

@@ -1,0 +1,12 @@
+{
+    "tokenID": "21077473918051511722993054550171755167605075180225127365787647476663731684749",
+    "amount": 1,
+    "account": "Winston_Churchill",
+    "fabricID": "eDUwOTo6Q049V2luc3Rvbl9DaHVyY2hpbGwsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmRUZ9yvy1UEtekNmwaYCK11MLcxG3DVBsdKQv94JWrTmN",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmRUZ9yvy1UEtekNmwaYCK11MLcxG3DVBsdKQv94JWrTmN",
+    "prompt": "Winston Churchill looking at iPhone, in the style of 3D Modeling",
+    "image_pHash": "93bb298d66744c27",
+    "prompt_SimHash": 5401330432961583505,
+    "timestamp": "2025-03-14T05:01:52.628259Z"
+}

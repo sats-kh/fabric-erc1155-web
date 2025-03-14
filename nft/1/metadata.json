@@ -1,0 +1,12 @@
+{
+    "tokenID": "1",
+    "amount": 1,
+    "account": "user123",
+    "fabricID": "fabricUser123",
+    "image": "QmSiFoCpqxEGkwp7Jw7oaB7AzSpspPU15injpAB2NVvw3d",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmSiFoCpqxEGkwp7Jw7oaB7AzSpspPU15injpAB2NVvw3d",
+    "prompt": "A futuristic cityscape at sunset with vibrant colors",
+    "image_pHash": "e0b51762c397d8c9",
+    "prompt_SimHash": 1170478963768942836,
+    "timestamp": "2025-03-06T09:14:10.267516Z"
+}

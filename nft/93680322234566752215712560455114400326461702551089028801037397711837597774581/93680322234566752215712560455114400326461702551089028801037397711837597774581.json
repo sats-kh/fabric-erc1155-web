@@ -1,0 +1,12 @@
+{
+    "tokenID": "93680322234566752215712560455114400326461702551089028801037397711837597774581",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmcH8uuGw3cwBna2qQAFMkPPP9xsmT7SZKvPYuRqsZwpap",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmcH8uuGw3cwBna2qQAFMkPPP9xsmT7SZKvPYuRqsZwpap",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Japanese Ukiyo-e\r\n",
+    "image_pHash": "f9a2365e668b8c34",
+    "prompt_SimHash": 5107971814433931696,
+    "timestamp": "2025-03-13T08:46:59.383639Z"
+}

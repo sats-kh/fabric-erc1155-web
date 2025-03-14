@@ -1,0 +1,12 @@
+{
+    "tokenID": "8693936546655937374",
+    "amount": 1,
+    "account": "p1",
+    "fabricID": "eDUwOTo6Q049cDEsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "http://192.168.1.131:8080/ipfs/QmWmMeWuqtfvnX4dTVB2pKnnTQTzoyxBfXyvnCr8bLdVEZ",
+    "image_uri": "http://192.168.1.131:8080/ipfs/http://192.168.1.131:8080/ipfs/QmWmMeWuqtfvnX4dTVB2pKnnTQTzoyxBfXyvnCr8bLdVEZ",
+    "prompt": "testststs",
+    "image_pHash": null,
+    "prompt_SimHash": 0,
+    "timestamp": "2025-03-06T09:19:51.152362Z"
+}

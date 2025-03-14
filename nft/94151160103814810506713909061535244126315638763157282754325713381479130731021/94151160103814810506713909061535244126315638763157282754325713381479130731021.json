@@ -1,0 +1,12 @@
+{
+    "tokenID": "94151160103814810506713909061535244126315638763157282754325713381479130731021",
+    "amount": 1,
+    "account": "khlee",
+    "fabricID": "eDUwOTo6Q049a2hsZWUsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmcMCbNUWgm5mxKfDiJqbdGyR7vyy9fSed7AhjWaELLdkx",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmcMCbNUWgm5mxKfDiJqbdGyR7vyy9fSed7AhjWaELLdkx",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Infographic",
+    "image_pHash": "ea998ce4f1d1b0b1",
+    "prompt_SimHash": 14870992936948629905,
+    "timestamp": "2025-03-14T07:31:55.394609Z"
+}

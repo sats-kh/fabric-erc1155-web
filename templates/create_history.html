@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Create Creative History{% endblock %}
+
+{% block content %}
+<h1>Create Creative History</h1>
+<p>대표 NFT와 기록에 포함될 NFT들을 선택하세요.<br>
+   첫 번째로 선택한 NFT가 대표 NFT가 되며, 선택된 모든 NFT의 트랜잭션 ID가 창작 이력에 기록됩니다.
+</p>
+
+<form id="historyForm" method="POST" action="{{ url_for('create_history') }}">
+  <!-- 숨겨진 입력 필드에 선택된 NFT 정보를 저장 -->
+  <input type="hidden" name="representative_token" id="representative_token">
+  <input type="hidden" name="all_tx_ids" id="all_tx_ids">
+
+  <div class="nft-container">
+    {% for nft in nfts %}
+    <div class="nft-item" data-token="{{ nft.tokenId }}" data-txid="{{ nft.txId }}" style="cursor: pointer; border: 1px solid #ccc; margin: 5px; padding: 5px;">
+      <img src="{{ nft.imageURI }}" alt="NFT Image" style="max-width: 200px;"><br>
+      <span>ID: {{ nft.tokenId }}</span><br>
+      <span>TxID: {{ nft.txId }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <br>
+  <button type="submit">창작 이력 기록하기</button>
+</form>
+
+<script>
+  // 선택된 NFT 정보를 저장할 배열 (선택 순서 유지)
+  const selectedNFTs = [];
+
+  // 모든 NFT 아이템에 클릭 이벤트 추가
+  document.querySelectorAll('.nft-item').forEach(item => {
+    item.addEventListener('click', function() {
+      const tokenId = this.getAttribute('data-token');
+      const txId = this.getAttribute('data-txid');
+
+      // 이미 선택된 경우 클릭 시 선택 해제
+      const index = selectedNFTs.findIndex(nft => nft.token === tokenId);
+      if (index !== -1) {
+        selectedNFTs.splice(index, 1);
+        this.style.border = "1px solid #ccc";
+      } else {
+        selectedNFTs.push({ token: tokenId, txId: txId });
+        this.style.border = "2px solid green";
+      }
+      updateFormFields();
+    });
+  });
+
+  // 폼 필드 업데이트: 첫 번째 NFT는 대표, 모든 NFT의 txId 목록을 저장
+  function updateFormFields() {
+    if (selectedNFTs.length > 0) {
+      document.getElementById('representative_token').value = selectedNFTs[0].token;
+      // 모든 선택된 NFT들의 txId를 콤마로 구분된 문자열로 저장
+      const allTxIds = selectedNFTs.map(nft => nft.txId).join(",");
+      document.getElementById('all_tx_ids').value = allTxIds;
+    } else {
+      document.getElementById('representative_token').value = "";
+      document.getElementById('all_tx_ids').value = "";
+    }
+  }
+</script>
+{% endblock %}

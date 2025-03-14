@@ -1,0 +1,5 @@
+imagehash
+Pillow
+Flask
+hashlib
+requests

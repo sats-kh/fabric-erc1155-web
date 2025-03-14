@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}NFT Service{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <!-- 로고 -->
+        <div class="logo">
+            <a href="/">
+            	<img src="/static/white.svg" alt="Logo">
+            </a>
+        </div>
+        <div class="menu">
+        {% if 'user_id' in session %}
+            <span>Welcome, {{ session.username }}!</span>
+            <a href="/nfts">MyNFTs</a>
+            <a href="/logout">Logout</a>
+        {% else %}
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+        {% endif %}
+        </div>
+        <!-- 메뉴 -->
+<!--        <div class="menu">
+            {% if user_logged_in %}
+                <span>Welcome, {{ session.username }}!</span>
+                <a href="/nfts">MyNFTs</a>
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/register">Register</a>
+                <a href="/login">Login</a>
+            {% endif %}
+        </div>-->
+    </header>
+    <main class="main-container">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 NFT Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

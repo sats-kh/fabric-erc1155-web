@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Mint NFT{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <h1>Mint NFT</h1>
+    <form method="POST">
+        <label for="prompt">Prompt:</label>
+        <textarea id="prompt" name="prompt" rows="4" required></textarea>
+        <button type="submit">Mint</button>
+    </form>
+    <a href="/" class="btn">Go Back</a>
+</div>
+{% endblock %}

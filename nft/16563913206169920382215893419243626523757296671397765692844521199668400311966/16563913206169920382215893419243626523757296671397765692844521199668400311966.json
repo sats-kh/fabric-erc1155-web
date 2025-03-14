@@ -1,0 +1,12 @@
+{
+    "tokenID": "16563913206169920382215893419243626523757296671397765692844521199668400311966",
+    "amount": 1,
+    "account": "khlee",
+    "fabricID": "eDUwOTo6Q049a2hsZWUsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmQobsHrXHntZhgM2i2BBWZLuPuNqF6CzYcJCbSLtuvUAZ",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmQobsHrXHntZhgM2i2BBWZLuPuNqF6CzYcJCbSLtuvUAZ",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Expressionism",
+    "image_pHash": "8eb466064b9bb7c4",
+    "prompt_SimHash": 14312441030036593041,
+    "timestamp": "2025-03-14T07:45:45.835125Z"
+}

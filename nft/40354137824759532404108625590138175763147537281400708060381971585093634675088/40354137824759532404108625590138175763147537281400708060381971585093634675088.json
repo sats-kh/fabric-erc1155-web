@@ -1,0 +1,12 @@
+{
+    "tokenID": "40354137824759532404108625590138175763147537281400708060381971585093634675088",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmULvCLvZespGL5RQr8X8mQZAHp4YLrjRXXHJjQi82P8um",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmULvCLvZespGL5RQr8X8mQZAHp4YLrjRXXHJjQi82P8um",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Underwater Photography\r\n",
+    "image_pHash": "9ad9998c5a0d9e36",
+    "prompt_SimHash": 16064693290975338416,
+    "timestamp": "2025-03-13T08:43:49.947255Z"
+}

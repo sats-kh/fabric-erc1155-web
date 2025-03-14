@@ -1,0 +1,14 @@
+{
+    "tokenID": "12345",
+    "URI": "https://example.com/old-uri",
+    "사용자ID": "webUser01",
+    "Timestamp": "2025-03-14T08:20:44.380421Z",
+    "txid11111": [
+        "11111",
+        "https://example.com/tx1-uri"
+    ],
+    "txid22222": [
+        "22222",
+        "https://example.com/tx2-uri"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "tokenID": "109941177267649480120546471536645314477646738935370541284819604958505065346901",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmehUNdnfddLVfiKfHTwCDo6X4kSooHy2zkPn6VLqLY4r8",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmehUNdnfddLVfiKfHTwCDo6X4kSooHy2zkPn6VLqLY4r8",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Fashion Illustration\r\n",
+    "image_pHash": "f3b19c46d28bb14c",
+    "prompt_SimHash": 5760492366325257104,
+    "timestamp": "2025-03-13T08:48:49.158619Z"
+}

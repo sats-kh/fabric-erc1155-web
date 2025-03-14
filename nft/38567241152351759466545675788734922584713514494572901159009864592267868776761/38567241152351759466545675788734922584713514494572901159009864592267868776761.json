@@ -1,0 +1,12 @@
+{
+    "tokenID": "38567241152351759466545675788734922584713514494572901159009864592267868776761",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmU5VkmMxPDxD3aZc3xYJuzpMUs2oL9fAkPr5mpm6LaK4C",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmU5VkmMxPDxD3aZc3xYJuzpMUs2oL9fAkPr5mpm6LaK4C",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Fluid Art\r\n",
+    "image_pHash": "cca1b9c95992966d",
+    "prompt_SimHash": 14583541168474151089,
+    "timestamp": "2025-03-14T00:32:45.217758Z"
+}

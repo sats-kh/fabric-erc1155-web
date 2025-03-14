@@ -1,0 +1,12 @@
+{
+    "tokenID": "114639657918974985235610239421657927216322370123351966265264177483767080881314",
+    "amount": 1,
+    "account": "Winston_Churchill",
+    "fabricID": "eDUwOTo6Q049V2luc3Rvbl9DaHVyY2hpbGwsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmfQ2DxnJtTBfmHaqpUdyTseaofWPgRxDWUydfppJPYbpV",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmfQ2DxnJtTBfmHaqpUdyTseaofWPgRxDWUydfppJPYbpV",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Aboriginal\r\n",
+    "image_pHash": "84f665a4396c9ca7",
+    "prompt_SimHash": 9683057272450357377,
+    "timestamp": "2025-03-14T04:48:07.629851Z"
+}

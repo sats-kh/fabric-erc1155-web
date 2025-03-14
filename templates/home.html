@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome to the NFT Service</h1>
+    <p>Explore your NFTs or mint new ones!</p>
+    <a href="/mint" class="btn">Mint NFT</a>
+    <h2>All NFTs</h2>
+    {% if all_nfts %}
+    <div class="nft-container">
+        {% for nft in all_nfts %}
+        <div class="nft-item">
+            <a href="{{ nft.imageURI }}" target="_blank">
+                <img src="{{ nft.imageURI }}" alt="NFT Image">
+            </a>
+            <div class="nft-details">
+                <p>ID: <a href="{{ nft.tokenURI }}" target="_blank"><strong>{{ nft.tokenId[:5] ~ "..." ~ nft.tokenId[-5:] }}</strong></a></p>
+                <p>TxID: <a href="{{ nft.txIdURL }}" target="_blank"><strong>{{ nft.txId[:5] ~ "..." ~ nft.txId[-5:] }}</strong></a></p>
+                <p><strong>{{ nft.owner }}</strong></p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+        <p>No NFTs have been minted yet.</p>
+    {% endif %}
+{% endblock %}

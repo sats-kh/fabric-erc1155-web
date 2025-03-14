@@ -1,0 +1,12 @@
+{
+    "tokenID": "54580694689254981231183082361286792144201413794595570164507120795957836429873",
+    "amount": 1,
+    "account": "Fabric",
+    "fabricID": "eDUwOTo6Q049RmFicmljLE9VPWFkbWluLE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmWThNtDKxFDYUuZQUvNtoRvnfA2GbTyodwamxEEiEd9Uc",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmWThNtDKxFDYUuZQUvNtoRvnfA2GbTyodwamxEEiEd9Uc",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Isometric",
+    "image_pHash": "e2b3955acc4d861e",
+    "prompt_SimHash": 1035899713400510641,
+    "timestamp": "2025-03-14T05:35:22.103206Z"
+}

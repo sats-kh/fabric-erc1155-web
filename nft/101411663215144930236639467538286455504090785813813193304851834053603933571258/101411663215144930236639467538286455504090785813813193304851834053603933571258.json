@@ -1,0 +1,12 @@
+{
+    "tokenID": "101411663215144930236639467538286455504090785813813193304851834053603933571258",
+    "amount": 1,
+    "account": "dslab",
+    "fabricID": "eDUwOTo6Q049ZHNsYWIsT1U9YWRtaW4sTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmJpZ2RhdGEucmUua3IsTz1vcmcxLmJpZ2RhdGEucmUua3IsTD1TYW4gRnJhbmNpc2NvLFNUPUNhbGlmb3JuaWEsQz1VUw==",
+    "image": "QmdRrsuAThDFY3sBps6rQ43orUNthRTexVPtqUtFxveTtD",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmdRrsuAThDFY3sBps6rQ43orUNthRTexVPtqUtFxveTtD",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Islamic Art\r\n",
+    "image_pHash": "bac1e51e61469667",
+    "prompt_SimHash": 15466382881469404593,
+    "timestamp": "2025-03-14T00:34:39.548675Z"
+}

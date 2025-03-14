@@ -1,0 +1,12 @@
+{
+    "tokenID": "51512676753870208830882575596558919943742314993662354190805962183244709156278",
+    "amount": 1,
+    "account": "test3",
+    "fabricID": "eDUwOTo6Q049dGVzdDMsT1U9Y2xpZW50LE89SHlwZXJsZWRnZXIsU1Q9Tm9ydGggQ2Fyb2xpbmEsQz1VUzo6Q049Y2Eub3JnMS5iaWdkYXRhLnJlLmtyLE89b3JnMS5iaWdkYXRhLnJlLmtyLEw9U2FuIEZyYW5jaXNjbyxTVD1DYWxpZm9ybmlhLEM9VVM=",
+    "image": "QmW1DfWXGD55QbubSNuBuHebL6wZBmW18N1LHFztNkJ8TX",
+    "image_uri": "http://192.168.1.131:8080/ipfs/QmW1DfWXGD55QbubSNuBuHebL6wZBmW18N1LHFztNkJ8TX",
+    "prompt": "Winston Churchill looking at iPhone, in the style of Islamic Art",
+    "image_pHash": "93b14cce98ce334e",
+    "prompt_SimHash": 15466382881469404593,
+    "timestamp": "2025-03-14T06:50:17.923749Z"
+}
