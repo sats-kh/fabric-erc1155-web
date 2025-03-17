@@ -294,8 +294,8 @@ def view_nfts():
     ]
     return render_template('nfts.html', nfts=nfts)
 
-@app.route('/create_history', methods=['GET', 'POST'])
-def create_history():
+@app.route('/record', methods=['GET', 'POST'])
+def record():
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
@@ -323,7 +323,7 @@ def create_history():
                 "txId": row[3]
             } for row in nft_rows
         ]
-        return render_template('create_history.html', nfts=nfts)
+        return render_template('record_history.html', nfts=nfts)
 
     # POST 요청: 선택된 NFT 정보를 바탕으로 창작 이력 메타파일 생성 및 업로드 후, RecordCreativeHistory 체인코드 호출
     if request.method == 'POST':
@@ -377,6 +377,7 @@ def create_history():
                 fabric_id = row[0]
             else:
                 return "Fabric ID를 찾을 수 없습니다.", 500
+
         # utils.py의 create_and_upload_creative_history 함수 호출하여 새로운 창작 이력 URI 생성
         from utils import create_and_upload_creative_history
         try:
@@ -398,7 +399,7 @@ def create_history():
         os.environ["CORE_PEER_ADDRESS"] = CORE_PEER_ADDRESS
 
         # 체인코드 RecordCreativeHistory 호출:
-        # 인자 순서: 대표 NFT의 Token ID, 사용자 ID, 새롭게 생성된 창작 이력 URI, 이전 트랜잭션의 txID 배열 (JSON 문자열)
+        # 인자 순서: 대표 NFT의 Token ID, Fabric ID, 새롭게 생성된 창작 이력 URI, 이전 트랜잭션의 txID 배열 (JSON 문자열)
         record_history_cmd = [
             "peer", "chaincode", "invoke",
             *TARGET_TLS_OPTIONS,
@@ -421,9 +422,24 @@ def create_history():
             return f"체인코드 RecordCreativeHistory 호출 실패: {e.output.strip()}", 500
 
         # tx_id 추출 (정규표현식을 활용)
-        import re
         match = re.search(r'txid \[([a-f0-9]+)\]', tx_result)
         tx_id = match.group(1) if match else "Unknown"
+
+        # History DB 테이블에 기록 (예: history 테이블 존재, 스키마 참고)
+        try:
+            conn = sqlite3.connect(DB_PATH)
+            cursor = conn.cursor()
+            from datetime import datetime
+            current_timestamp = datetime.utcnow().isoformat() + "Z"
+            cursor.execute(
+                "INSERT INTO history (user_id, representative_token, new_history_uri, tx_id, timestamp) VALUES (?, ?, ?, ?, ?)",
+                (user_id, representative_token, new_uri, tx_id, current_timestamp)
+            )
+            conn.commit()
+        except sqlite3.Error as e:
+            return f"History DB 저장 실패: {e}", 500
+        finally:
+            conn.close()
 
         return render_template('record_history_success.html',
                                representative=representative_token,
@@ -431,6 +447,36 @@ def create_history():
                                new_history_uri=new_uri,
                                explorer_url=EXPLORER_URL,
                                tx_id=tx_id)
+
+@app.route('/view_record', methods=['GET'])
+def view_record():
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    
+    user_id = session['user_id']
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    # History 테이블에서 현재 사용자의 기록을 최신순으로 조회
+    cursor.execute("""
+        SELECT representative_token, new_history_uri, tx_id, timestamp 
+        FROM history 
+        WHERE user_id = ? 
+        ORDER BY id DESC
+    """, (user_id,))
+    records = cursor.fetchall()
+    conn.close()
+    
+    # 조회된 기록들을 딕셔너리 리스트로 구성
+    history_records = []
+    for rec in records:
+        history_records.append({
+            "representative_token": rec[0],
+            "new_history_uri": rec[1],
+            "tx_id": rec[2],
+            "timestamp": rec[3]
+        })
+    
+    return render_template("view_record.html", records=history_records, explorer_url=EXPLORER_URL)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=3000, debug=True)

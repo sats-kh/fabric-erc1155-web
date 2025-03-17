@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}My History Records{% endblock %}
+
+{% block content %}
+<h1>My Records</h1>
+<a href="/nfts" >Go Back</a>
+{% if records %}
+    <table class="history-table">
+        <thead>
+            <tr>
+                <th>Token ID</th>
+                <th>URI</th>
+                <th>Tx ID</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in records %}
+            <tr>
+                <td>
+                    <a href="{{ record.new_history_uri }}" target="_blank">
+                        {{ record.representative_token[:5] ~ "..." ~ record.representative_token[-5:] }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{{ record.new_history_uri }}" target="_blank">
+                        {{ record.new_history_uri[:10] ~ "..." ~ record.new_history_uri[-10:] }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{{ explorer_url }}{{ record.tx_id }}" target="_blank">
+                        {{ record.tx_id }}
+                    </a>
+                </td>
+                <td>{{ record.timestamp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No history records found.</p>
+{% endif %}
+<style>
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .history-table th, .history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .history-table th {
+    background-color: rgb(86, 135, 77);
+    color: white;
+  }
+  .history-table tr:nth-child(even) {
+  }
+  .history-table tr:hover {
+    background-color: #ddd;
+  }
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+</style>
+{% endblock %}

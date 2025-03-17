@@ -4,8 +4,9 @@
 
 {% block content %}
 <h1>My NFTs</h1>
+<a href="/record" class="btn">Keep Records</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/view_record" class="btn">View Records</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="/" class="btn">Go Back</a>
-
 {% if nfts %}
 <div class="nft-container">
     {% for nft in nfts %}
@@ -25,3 +26,4 @@
     <p>No NFTs found</p>
 {% endif %}
 {% endblock %}
+

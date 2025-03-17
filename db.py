@@ -32,6 +32,17 @@ def init_db():
             FOREIGN KEY (owner_id) REFERENCES users (id)
         )
     ''')
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS history (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER NOT NULL,
+            representative_token TEXT NOT NULL,
+            new_history_uri TEXT NOT NULL,
+            tx_id TEXT NOT NULL,
+            timestamp TEXT NOT NULL,
+            FOREIGN KEY (user_id) REFERENCES users (id)
+        )
+    ''')
     conn.commit()
     conn.close()
 
@@ -43,3 +54,4 @@ init_db()
 #cursor.execute("ALTER TABLE nfts ADD COLUMN tx_id TEXT;")
 #conn.commit()
 #conn.close()
+

@@ -27,7 +27,6 @@ PEER_TLS_CA = config["FABRIC"]["PEER_TLS_CA"]
 CORE_PEER_ADDRESS = config["FABRIC"]["CORE_PEER_ADDRESS"]
 
 def get_fabric_id(msp_path):
-    print(msp_path)
     admincerts_dir = os.path.join(msp_path, "admincerts")
     if not os.path.exists(admincerts_dir):
         os.makedirs(admincerts_dir)

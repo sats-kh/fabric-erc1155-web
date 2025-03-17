@@ -3,14 +3,25 @@
 {% block title %}Record History Success{% endblock %}
 
 {% block content %}
-<h1>창작 이력 기록 성공</h1>
-<p>Token ID: <strong><a href="{{ new_history_uri }}" target="_blank">{{ representative }}</strong></a></p>
-<p>Tx IDs:</p>
-<ul>
-  {% for tx in history_tx_ids %}
-  <li><a href="{{ explorer_url }}{{ tx }}" target="_blank">{{ tx }}</a></li>
-  {% endfor %}
-</ul>
-<p>RecordCreativeHistory 호출 결과 TxID: <strong><a href="{{ explorer_url }}{{ tx_id }}" target="_blank">{{ tx_id }}</strong></a></p>
-<a href="{{ url_for('home') }}" class="btn">홈으로 이동</a>
+<div class="form-container" style="max-width: 900px; margin: 30px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+    <h1>Creative Work Record Successfully Saved</h1>
+    <div class="record-details">
+        <p><strong>Token ID:</strong> 
+            <a href="{{ new_history_uri }}" target="_blank" style="word-wrap: break-word;">{{ representative }}</a>
+        </p>
+        <p><strong>Tx IDs:</strong></p>
+        <ul>
+            {% for tx in history_tx_ids %}
+            <li>
+                <a href="{{ explorer_url }}{{ tx }}" target="_blank" style="word-wrap: break-word;">{{ tx }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <p><strong>Recorded:</strong> 
+            <a href="{{ explorer_url }}{{ tx_id }}" target="_blank" style="word-wrap: break-word;">{{ tx_id }}</a>
+        </p>
+    </div>
+    <br>
+    <a href="/nfts" class="btn">Go Back</a>
+</div>
 {% endblock %}
